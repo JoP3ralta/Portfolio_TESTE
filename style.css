@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+
+/* estilo importado do navbar */
+@import url(css/navbar.css);
+
+/* estilo de fonte */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* variaveis */
+:root {
+    --gradiente: linear-gradient(to right, #007263, #00e0c2);
+
+}
+
+
+/* PADRAO */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* corpo */
+
+body {
+    background-color: #eae2cf;
+}
+
+.nav_header
+/* dentro do container */
+
+div h4 {
+    align-items: flex;
+    float: left;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    margin-left: 6%;
+}
+
+
+h2 {
+    text-align: center;
+
+}
+
+
+figure img {
+    height: 30rem;
+    margin-right: 4%;
+    float: right;
+    padding: 0.1rem;
+    border-radius: 0 15% 0% 15%;
+    border: solid 5px #007263;
+    display: inline;
+    box-shadow: 0 0 2rem #007263;
+}
+
+figure img:hover {
+    border-radius: 10% 10% 10% 10%;
+    border: solid 5px #00e0c2;
+    box-shadow: 0 0 2rem #00e0c2;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
+
+
+.name {
+    margin-left: 23%;
+    margin-top: 2%;
+    font-size: 2.7rem;
+
+}
+
+.sobre {
+    margin-right: 35%;
+    margin-top: 9%;
+    font-size: 2.5rem;
+}
+
+.eu {
+    padding: 3%;
+    font-size: 1.2rem;
+    padding-right: 25%;
+    margin-right: 26%;
+    text-align: justify;
+}
+
+
+.box {
+    margin-top: 14%;
+    margin-bottom: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: #ffffff;
+    border-radius: 4%;
+    padding-bottom: 10%;
+    padding: 5%;
+    box-shadow: 0 0 3rem #1a5570;
+}
+
+
+.tel {
+    margin-left: 12%;
+    margin-top: 2%;
+    font-size: 1.1rem;
+}
+
+
+/* rodapé */
+
+footer {
+    padding: 28px;
+    background-image: var(--gradiente);
+    color: aliceblue;
+    text-align: center;
+    margin-top: 3%;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    text-align: right;
+    align-items: center;
+
+}
+
+.text-icon {
+    align-items: center;
+    align-items: center;
+    width: 50%;
+}
+
+.icons img {
+    width: 2rem;
+    height: 2rem;
+
+}
+
+.icons a {
+    padding: 0
+}
+
+.icons img:hover {
+    transform: scale(1.1);
+}
+
+.text-icon {
+    display: flex;
+    text-align: center;
+}
+
+
+
+/* responsividade */
+
+@media (max-width: 844px) {
+
+    /* container responsivo, joguei para baixo */
+    .box {
+        margin-top: 40%;
+    }
+
+    /* meu nome responsivo */
+    .name {
+        margin-left: 14%;
+        font-size: 3rem;
+    }
+
+
+
+    /* minha fotinha responsiva */
+    figure img {
+        margin-top: 10%;
+        margin-right: 10%;
+
+    }
+
+    /* meu contato responsivo */
+    .tel {
+        margin-top: 35rem;
+        margin-left: 12%;
+        font-size: 1.5rem;
+    }
+
+    .conteudo .sobre {
+        text-align: center;
+        margin-top: 9%;
+        font-size: 2.5rem;
+        margin-right: 20%;
+        padding-left: 8%;
+    }
+
+    .conteudo .eu {
+        text-align: center;
+        margin-right: -10%;
+        text-align: justify;
+    }
+
+}
