@@ -14,6 +14,8 @@
 }
 
 
+
+
 /* PADRAO */
 * {
     padding: 0%;
@@ -31,6 +33,7 @@ body {
 .nav_header
 /* dentro do container */
 
+
 div h4 {
     align-items: flex;
     float: left;
@@ -45,6 +48,7 @@ h2 {
 
 }
 
+/* minha foto */
 
 figure img {
     height: 30rem;
@@ -57,6 +61,8 @@ figure img {
     box-shadow: 0 0 2rem #007263;
 }
 
+/* animação da foto */
+
 figure img:hover {
     border-radius: 10% 10% 10% 10%;
     border: solid 5px #00e0c2;
@@ -67,7 +73,7 @@ figure img:hover {
 
 
 
-
+/* MEU NOME */
 .name {
     margin-left: 23%;
     margin-top: 2%;
@@ -75,11 +81,15 @@ figure img:hover {
 
 }
 
+/* TITUL */
+
 .sobre {
     margin-right: 35%;
     margin-top: 9%;
     font-size: 2.5rem;
 }
+
+/* CONTEUDO SOBRE MIM */
 
 .eu {
     padding: 3%;
@@ -89,7 +99,7 @@ figure img:hover {
     text-align: justify;
 }
 
-
+/* container */
 .box {
     margin-top: 14%;
     margin-bottom: 5%;
@@ -102,12 +112,331 @@ figure img:hover {
     box-shadow: 0 0 3rem #1a5570;
 }
 
-
+/* meu telefone  */
 .tel {
     margin-left: 12%;
     margin-top: 2%;
     font-size: 1.1rem;
 }
+
+/* copiei */
+
+.container4 {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2.5% 30% 2.5% 30% 2.5% 30% 2.5%;
+    grid-template-rows: 15% 80% 5%;
+}
+
+.titulocontainer4 {
+    font-weight: bolder;
+    font-size: 3rem;
+    grid-column-start: 4;
+    align-self: center;
+    justify-self: center;
+    letter-spacing: 3px
+
+
+}
+
+.cardc4-1 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius: 16px;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    overflow: hidden;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+/*Image*/
+.cardc4-1-image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url(img/daja.png);
+}
+
+/*Description */
+.cardc4-1-description {
+    display: flex;
+    position: absolute;
+    gap: .5em;
+    flex-direction: column;
+    background-image: linear-gradient(white, #f5f5f5, rgb(214, 214, 214));
+    color: #212121;
+    height: 70%;
+    bottom: 0;
+    border-radius: 16px;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 1rem;
+}
+
+/*Text*/
+.text-titlec4-1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.text-bodyc4-1 {
+    font-size: 1rem;
+    line-height: 200%;
+}
+
+
+/* Hover states */
+.cardc4-1:hover .cardc4-1-description {
+    transform: translateY(100%);
+}
+
+.card4-2 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius: 16px;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    overflow: hidden;
+    grid-row-start: 2;
+    grid-column-start: 4;
+}
+
+/*Image*/
+.card4-2-image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url(img/Fnaf.png);
+}
+
+/*Description */
+.card4-2-description {
+    display: flex;
+    position: absolute;
+    gap: .5em;
+    flex-direction: column;
+    background-image: linear-gradient(white, #f5f5f5, rgb(214, 214, 214));
+    color: #212121;
+    height: 70%;
+    bottom: 0;
+    border-radius: 16px;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 1rem;
+}
+
+/*Text*/
+.text-title4-2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.text-body4-2 {
+    font-size: 1rem;
+    line-height: 200%;
+}
+
+
+/* Hover states */
+.card4-2:hover .card4-2-description {
+    transform: translateY(100%);
+}
+
+.card4-3 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius: 16px;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    overflow: hidden;
+    grid-row-start: 2;
+    grid-column-start: 6;
+}
+
+/*Image*/
+.card4-3-image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('img/jogo\ da\ velha.png');
+}
+
+/*Description */
+.card4-3-description {
+    display: flex;
+    position: absolute;
+    gap: .5em;
+    flex-direction: column;
+    background-image: linear-gradient(white, #f5f5f5, rgb(214, 214, 214));
+    color: #212121;
+    height: 70%;
+    bottom: 0;
+    border-radius: 16px;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 1rem;
+}
+
+/*Text*/
+.text-title4-3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.text-body4-3 {
+    font-size: 1rem;
+    line-height: 200%;
+}
+
+
+/* Hover states */
+.card4-3:hover .card4-3-description {
+    transform: translateY(100%);
+}
+
+.container5 {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 3.5% 5% 3.5% 26.6% 1% 26.6% 1% 26.6% 1% 5%;
+    grid-template-columns: 2.5% 47.5% 47.5% 2.5%;
+}
+
+.titulocontainer5 {
+    grid-row-start: 4;
+    grid-column-start: 3;
+    align-self: center;
+    justify-self: center;
+    letter-spacing: 3px
+}
+
+.container5 p {
+    line-height: 150%;
+}
+
+.conteudo1container5 {
+    grid-column-start: 2;
+    grid-row: 4;
+    border: 1px solid;
+    border-radius: 17px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: all ease-in-out 0.5s;
+
+}
+
+.conteudo1container5:hover {
+    background-color: #fdfdfd;
+    box-shadow: rgba(0, 0, 0, 0.09) -1px 2px 1px, rgba(0, 0, 0, 0.09) -4px 4px 2px,
+        rgba(0, 0, 0, 0.09) -8px 8px 4px, rgba(0, 0, 0, 0.09) -16px 16px 8px,
+        rgba(0, 0, 0, 0.09) -32px 32px 16px, rgba(0, 0, 0, 0.09) -64px 64px 32px;
+    transition: all ease-in-out 0.5s;
+    ;
+}
+
+.conteudo1container5 img {
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 16px;
+}
+
+
+
+
+
+.conteudo3container5 {
+    grid-column-start: 2;
+    grid-row-start: 6;
+    border: 1px solid;
+    border-radius: 16px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: all ease-in-out 0.5s;
+}
+
+.conteudo3container5:hover {
+    background-color: #fdfdfd;
+    box-shadow: rgba(0, 0, 0, 0.09) -1px 2px 1px, rgba(0, 0, 0, 0.09) -4px 4px 2px,
+        rgba(0, 0, 0, 0.09) -8px 8px 4px, rgba(0, 0, 0, 0.09) -16px 16px 8px,
+        rgba(0, 0, 0, 0.09) -32px 32px 16px, rgba(0, 0, 0, 0.09) -64px 64px 32px;
+    transition: all ease-in-out 0.5s;
+    ;
+}
+
+.conteudo3container5 img {
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 17px;
+}
+
+.conteudo2container5 {
+    grid-column-start: 2;
+    grid-row-start: 8;
+    border: 1px solid;
+    border-radius: 17px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: all ease-in-out 0.5s;
+}
+
+.conteudo2container5:hover {
+    background-color: #fdfdfd;
+    box-shadow: rgba(0, 0, 0, 0.09) -1px 2px 1px, rgba(0, 0, 0, 0.09) -4px 4px 2px,
+        rgba(0, 0, 0, 0.09) -8px 8px 4px, rgba(0, 0, 0, 0.09) -16px 16px 8px,
+        rgba(0, 0, 0, 0.09) -32px 32px 16px, rgba(0, 0, 0, 0.09) -64px 64px 32px;
+    transition: all ease-in-out 0.5s;
+    ;
+}
+
+.conteudo2container5 img {
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 16px;
+}
+
+.container5 p {
+    grid-row: 6;
+    grid-column: 3;
+    align-self: center;
+    justify-self: center;
+    margin: 5%;
+}
+
+.espacobranco {
+    height: 10vh;
+}
+
+.entrarcontato {
+    height: 10vh;
+    display: grid;
+}
+
+.entrarcontato h2 {
+    justify-self: center;
+    font-family: 'embedcode';
+    font-size: 250%;
+}
+
+.card {
+
+    background-color: rgb(238, 238, 238);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-items: center;
+    align-items: center;
+    height: 12vh;
+}
+
 
 
 /* rodapé */
@@ -120,6 +449,8 @@ footer {
     margin-top: 3%;
 
 }
+
+/* icones rodape */
 
 .icons {
     display: flex;
@@ -202,4 +533,107 @@ footer {
         text-align: justify;
     }
 
+}
+
+@media (max-width: 768px) {
+    
+
+    .container4 {
+        grid-template-rows: 5% 25% 5% 25% 5% 25% 10%;
+        grid-template-columns: 2.5% 95% 2.5%;
+        height: 125vh;
+    }
+
+    .titulocontainer4 {
+        grid-column-start: 2;
+        grid-row-start: 1
+    }
+
+    .card4-1 {
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+
+    .cardc4-1-image {
+        background-image: url('img/daja.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card4-1 {
+        height: 60vh;
+    }
+
+    .text-titlec4-1,
+    .text-title4-2,
+    .text-title4-3 {
+        font-size: 16px;
+    }
+
+    .card4-2 {
+        grid-column-start: 2;
+        grid-row-start: 4;
+    }
+
+    .card4-2-image {
+        background-image: url('img/Fnaf.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card4-3 {
+        grid-column-start: 2;
+        grid-row-start: 6;
+    }
+
+    .card4-3-image {
+        background-image: url('img/jogo\ da\ velha.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container5 {
+        height: 150vh;
+        grid-template-columns: 2.5% 95% 2.5%;
+        grid-template-rows: 5% 2.5% 12.5% 3% 12.5% 3% 12.5% 3% 46%;
+    }
+
+    .titulocontainer5 {
+        grid-row-start: 1;
+        grid-column-start: 2;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .conteudo1container5 {
+        grid-row-start: 3
+    }
+
+    .conteudo2container5 {
+        grid-row-start: 5;
+    }
+
+    .conteudo3container5 {
+        grid-row-start: 7;
+    }
+
+
+    .container5 p {
+        grid-row-start: 9;
+        grid-column-start: 2;
+        font-size: 14px;
+
+        .espaco {
+            height: 0;
+        }
+
+        .entrarcontato {
+            font-size: 12px;
+            align-self: cente
+        }
+
+        .header span a {
+            font-size: 10px
+        }
+    }
 }
